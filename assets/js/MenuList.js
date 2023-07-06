@@ -30,6 +30,32 @@ item_list = [
     },
     {
         event: 'HOT',
+        name: 'Download Video Social',
+        icon: 'fa fa-cloud-download',
+        item: [{
+            "url": 'https://nguyenmanh.name.vn/facebook',
+            "name": "Download Video Facebook"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/tiktok',
+            "name": "Download Video Tiktok"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/youtube',
+            "name": "Download Video Youtube"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/douyin',
+            "name": "Download Video Tiktok Douyin"
+        },
+        {
+            "url": 'https://nguyenmanh.name.vn/videodl',
+            "name": "Download All Video No Logo"
+        }       
+        ]
+    },
+    {
+        event: 'HOT',
         name: 'Facebook',
         icon: 'fa-brands fa-facebook',
         item: [{
@@ -149,7 +175,11 @@ item_list = [
             { 
                 "url": 'https://notepad.jrtxtracy.repl.co/',
                 "name": "Note (no login)"
-            },    
+            },   
+            { 
+                "url": 'https://uploadfile.jrtxtracy.repl.co/',
+                "name": "Upload All
+            },   
             { 
                 "url": 'https://uploadimg.jrtxtracy.repl.co/',
                 "name": "Upload IMG"
